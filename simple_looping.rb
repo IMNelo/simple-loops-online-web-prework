@@ -14,10 +14,8 @@ end
 
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
-  
-  4.times
-    phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+  10.times
+    puts = "Welcome to Flatiron School's Web Development Course!"
 end
 
 def while_iterator(number_of_times)
@@ -27,8 +25,6 @@ def while_iterator(number_of_times)
   while counter <10
   puts "Welcome to Flatiron School's Web Development Course!"
   counter += 1
-  end
-  
 end
 
 def until_iterator(number_of_times)
